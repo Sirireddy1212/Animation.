@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+     background-color: #ccccff; 
+}
+
+/* @keyframes backgound{
+    0%{
+        background-color: #ffd700;
+    }
+    25%{
+        background-color: #c1f742;
+    }
+    50%{
+        background-color: #5bf0eb;
+    }
+    75%{
+        background-color: #453cf3;
+    }
+    100%{
+        background-color: #d768f6;
+    }
+    }      */
+
+img{
+    position:relative;
+    top:400px;
+}
+
+.sun{
+    background-color: #ff8c1a;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    position:relative;
+    left:50%;
+    box-shadow: 0px 0px 20px 5px #ff8c1a;
+    animation:sunset 3s linear infinite alternate-reverse;
+   
+    
+}
+
+/* .img-area{
+    animation:backgound 3s linear infinite alternate-reverse;
+} */
+
+
+@keyframes sunset{
+    100%{
+    transform: translateY(750px);
+}
+
+
